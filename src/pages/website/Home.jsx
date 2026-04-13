@@ -9,7 +9,6 @@ import Experience from "../../components/Experience";
 import Testimonials from "../../components/Testimonials";
 import Faq from "../../components/Faq";
 import Contact from "../../components/Contact";
-import Footer from "../../components/Footer";
 import WhatsAppButton from "../../components/WhatsAppButton";
 import { useState } from "react";
 import { PopupModal } from "../../components/Model";
@@ -56,7 +55,6 @@ export default function Home() {
       <Testimonials />
       <Faq />
       <Contact />
-      <Footer />
     </>
   );
 }
