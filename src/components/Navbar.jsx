@@ -514,7 +514,7 @@ export default function Navbar({ solid, onQuote }) {
 
         /* On smaller desktops where left:0 would overflow right,
            anchor from the right instead */
-        @media (max-width: 1280px) {
+        @media (max-width: 1400px) {
           .nav-drop--wide {
             left: auto;
             right: 0;
