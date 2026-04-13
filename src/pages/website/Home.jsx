@@ -10,6 +10,7 @@ import Testimonials from "../../components/Testimonials";
 import Faq from "../../components/Faq";
 import Contact from "../../components/Contact";
 import WhatsAppButton from "../../components/WhatsAppButton";
+import ChatBot from "../../components/ChatBot";
 import { useState } from "react";
 import { PopupModal } from "../../components/Model";
 import { Helmet } from "react-helmet-async";
@@ -43,6 +44,7 @@ export default function Home() {
       </Helmet>
 
       <WhatsAppButton />
+<ChatBot />
       <Hero />
       <About />
       <Services />
