@@ -23,15 +23,15 @@ export default function Home() {
       <Helmet>
         {/* ── Primary ── */}
         <title>
-          Technosaga Infotech | Web, App & Digital Marketing Company in Ranchi
+          Technosaga Infotech | Web, App & Digital Marketing Company in Patna
         </title>
         <meta
           name="description"
-          content="Technosaga Infotech is a leading IT company in Ranchi offering web design, app development, digital marketing, BPO services, graphic design, event management & more."
+          content="Technosaga Infotech is a leading IT company in Patna offering web design, app development, digital marketing, BPO services, graphic design, event management & more."
         />
         <meta
           name="keywords"
-          content="IT company Ranchi, web design Ranchi, app development Ranchi, digital marketing Ranchi, BPO services, graphic design, event management Jharkhand, Technosaga Infotech"
+          content="IT company Patna, web design Patna, app development Patna, digital marketing Patna, BPO services, graphic design, event management Jharkhand, Technosaga Infotech"
         />
         <meta name="author" content="Technosaga Infotech" />
         <meta name="robots" content="index, follow" />
