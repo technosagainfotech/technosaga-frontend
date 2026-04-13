@@ -509,18 +509,17 @@ export default function Navbar({ solid, onQuote }) {
           grid-template-columns: 1fr 1fr;
           gap: 2px;
           padding: 8px;
+          left: auto;
+          right: auto;
+          position: fixed;
+          top: 60px;
           left: 50%;
           transform: translateX(-50%);
         }
 
         /* On smaller desktops where left:0 would overflow right,
            anchor from the right instead */
-        @media (max-width: 1400px) {
-          .nav-drop--wide {
-            left: auto;
-            right: 0;
-          }
-        }
+        
 
         .drop-item {
           display: flex;
