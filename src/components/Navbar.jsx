@@ -509,7 +509,8 @@ export default function Navbar({ solid, onQuote }) {
           grid-template-columns: 1fr 1fr;
           gap: 2px;
           padding: 8px;
-          left: 0;
+          left: 50%;
+          transform: translateX(-50%);
         }
 
         /* On smaller desktops where left:0 would overflow right,
