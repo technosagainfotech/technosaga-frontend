@@ -43,7 +43,6 @@ export default function Home() {
       </Helmet>
 
       <WhatsAppButton />
-      {isModal && <PopupModal setIsModal={setIsModal} />}
       <Hero />
       <About />
       <Services />
